@@ -1,0 +1,8 @@
+@use 'base'; 
+@import 'contenido/contenido'; 
+
+$rojo: green;
+
+body{
+    background-color: $rojo;
+}

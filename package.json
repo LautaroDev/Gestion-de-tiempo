@@ -1,0 +1,24 @@
+{
+  "name": "gestion-time",
+  "version": "1.0.0",
+  "description": "proyecto gestion de tiempo",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass  --watch src/scss:build/css",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "GULP",
+    "SASS",
+    "PHP",
+    "MYSQL",
+    "JS"
+  ],
+  "author": "Lautaro Encalado",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1"
+  }
+}
