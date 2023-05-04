@@ -1,5 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap");
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: green;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.button {
+  width: 40rem;
+  height: 4rem;
+  border: solid #212121 0.1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button-init {
+  margin-top: 1rem;
+  background-color: #1B7DBC;
+  color: white;
+}
+
+.button-Login {
+  background-color: #FFC107;
+}
+
+/* UI */
+.header {
+  background-color: #1B7DBC;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header h1 {
+  font-size: 10rem;
+  margin: 0;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+}
+.header p {
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+}
+
+.session {
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.initSession {
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  width: 40rem;
+}
+
+.formSession {
+  display: flex;
+  flex-direction: column;
+}
+.formSession label {
+  color: #212121;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.formSession input {
+  height: 3rem;
+  border: solid 0.1rem #212121;
+}
+
+.login {
+  justify-content: center;
+  display: flex;
+}
+
+.descripcion {
+  width: 80%;
+  background-color: #C6D8E1;
+  margin: 3rem auto;
+  padding: 5rem 2rem;
+  border-radius: 2%;
+}
+
+footer {
+  background-color: #1B7DBC;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+footer p {
+  color: white;
+  margin: 0;
 }
 
 /*# sourceMappingURL=app.css.map */

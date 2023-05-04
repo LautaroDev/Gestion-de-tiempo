@@ -1,0 +1,22 @@
+.button {
+    width: 40rem;
+    height: 4rem;
+    border: solid $negro 0.1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.button:hover {
+    background-color: $verde;
+    
+}
+
+
+.button-init{
+    margin-top: 1rem;
+    background-color:$azul-claro;
+    color: $blanco;
+}
+.button-Login{
+    background-color:$amarillo;
+}

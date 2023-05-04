@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+// Fuentes
+$fuente_principal: 'Lato', sans-serif;
+$fuente_secundaria: 'Source Code Pro', monospace;
+
+
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+//colores
+$blanco: #ffff ; 
+$negro: #212121 ; 
+$azul-oscuro: #134979;
+$azul-claro: #1B7DBC;
+$gris-claro: #C6D8E1;
+$rosado-claro: #F7CAC9;
+$naranja: #FF5733;
+$amarillo: #FFC107; 
+$rojo:#F44336 ;
+$verde:#3e8e41 ;
+
+
+
+// Fuentes
+$delgada: 300;
+$regular : 400;
+$bold: 700;
+$black: 900

@@ -1,8 +1,12 @@
-@use 'base'; 
-@import 'contenido/contenido'; 
+@import 'base/globales'; 
+@import 'base/variables'; 
+@import 'base/globales';
+@import 'base/button';
 
-$rojo: green;
 
-body{
-    background-color: $rojo;
-}
+/* UI */
+@import 'layout/header';
+@import 'layout/form';
+@import 'layout/descripcion';
+@import 'layout/footer';
+
